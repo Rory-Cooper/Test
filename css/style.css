@@ -1,0 +1,167 @@
+body{
+	padding: 0px;
+	margin: 0px;
+	color: black;
+	font-family: Palatino Linotype;
+}
+#first {
+	height: 650px;
+	background: url(../img/fon.jpg) no-repeat center top;
+	color: #fff;
+}
+.conteiner {
+	width: 1170px;
+	margin: 0px auto;
+}
+header {
+	padding-top: 20px;
+}
+.mail {
+	float: left;
+	font-size: 14px;
+	background: url(../img/liam.png) no-repeat left center;
+	padding: 0px 0px 0px 22px;
+
+}
+.logo {
+	float: left;
+	font-size: 16px;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-shadow: 0px 0px 1.5px #dddddd;
+	margin-left: 310px;
+	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+    background-image: -webkit-linear-gradient(top, #efd100 0, #e2a233 38%, #f0c328 60%, #fff1a3 86%, #ffe13e 100%);
+  	background-size: 1em 1em;
+    color: #f8b700;
+}
+.phone {
+	float: right;
+	font-size: 16px;
+	font-weight: bold;
+	background: url(../img/truba.png) no-repeat left center;
+	padding: 0px 0px 0px 25px;
+}
+h1 {
+	font-size: 41px;
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: bold;
+	display: block;
+	margin-top: 200px;
+	text-shadow: 0px 1px 5px #dddddd;
+}
+.button {
+	background: radial-gradient(ellipse farthest-corner at right bottom, #FFFFFF 0%, #FFFFAC 0%, #D1B464 0%, #5d4a1f 20%, transparent 80%),
+                radial-gradient(ellipse farthest-corner at left top, #FFFFFF 0%, #FFFFAC 8%, #D1B464 25%, #5d4a1f 62.5%, #5d4a1f 100%);
+    color: #fff; 
+    font-size: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    border-radius: 3px;
+    text-decoration: none;
+    padding: 10px 20px; 
+    font-weight: bold;
+    margin: 0px auto;
+    display: block;
+    width: 100px;
+    font-family: Palatino Linotype;
+    text-shadow: 0px 0px 2px #dddddd; 
+}
+.button:hover {
+	background: radial-gradient(ellipse farthest-corner at right bottom, #FFFFFF 0%, #FFFFAC 0%, #D1B464 0%, #5d4a1f 20%, transparent 80%),
+                radial-gradient(ellipse farthest-corner at left top, #FFFFFF 0%, #FFFFAC 8%, #D1B464 25%, #5d4a1f 62.5%, #5d4a1f 100%);
+    box-shadow: 0px 0px 0px 1px black;
+    opacity: 0.9;
+}
+h2 {
+	font-size: 33px;
+	font-weight: bold;
+	text-align: center;
+}
+#about {
+	padding-top: 50px;
+
+}
+.photo {
+	display: block;
+	margin: 20px auto 26px;
+}
+h3 {
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+}
+.about {
+	text-align: center;
+	width: 600px;
+	margin: 0px auto;
+}
+.socialki {
+	margin: 0px auto;
+	width: 150px;
+	margin-top: 20px;
+	padding-bottom: 85px;
+}
+.clearfix:after {
+	content: '';
+	display: block;
+	width: 100%;
+}
+.social {
+	border-radius: 50%;
+	width: 40px;
+	height: 40px;
+	background: black;
+	float: left;
+	text-align: center;
+	line-height: 31px;
+	margin-right: 10px;
+}
+.social:hover {
+	background: radial-gradient(ellipse farthest-corner at right bottom, #FFFFFF 0%, #FFFFAC 0%, #D1B464 0%, #5d4a1f 20%, transparent 80%),
+                radial-gradient(ellipse farthest-corner at left top, #FFFFFF 0%, #FFFFAC 8%, #D1B464 25%, #5d4a1f 62.5%, #5d4a1f 100%);
+    box-shadow: 0px 0px 5px 3px black;
+}
+#forma {
+	background: #f2f2f2;
+	padding: 20px 0px 100px 0px;
+}
+.blocks {
+	width: 250px;
+	margin: 0px auto;
+}
+.cell {
+	border-radius: 3px;
+	background: #fff;
+	display: block;
+	height: : 30px;
+	padding-left: 24px;
+	border: 0px;
+	box-shadow: 0px 0px 5px black;
+	margin-bottom: 14px;
+	width: 100%;
+	font-size: 15px;
+	box-sizing: border-box;
+}
+.act {
+	border: 0px;
+	cursor: pointer;
+	font-size: 17px;
+	width: 250px;
+	box-sizing: border-box;
+}
+footer {
+	background: black;
+	color: white;
+	padding: 50px 0px 60px 0px;
+}
+.credits {
+	font-size: 14px;
+	float: left;
+}
+footer .logo {
+	margin-left: 0px;
+	margin-right: 320px;
+}
